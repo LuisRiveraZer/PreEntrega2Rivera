@@ -42,10 +42,6 @@
 }
 
 
-/* ETIQUETAS */
-
-
-
 /* BODY */
 
 body{
@@ -53,7 +49,7 @@ body{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     background-image: url("https://swall.teahub.io/photos/small/155-1559258_white-light-wallpaper-4k.jpg");
     background-position: center ; 
     background-repeat: no-repeat;
@@ -272,33 +268,6 @@ iframe{
 
 /* Media Queris */
 
-@media (max-width: 768px) {
-    body{
-        margin: 0%;
-    }
-}
-
-@media (max-width: 768px) {
-    .midIndex {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 250px);
-        grid-template-areas: 
-    "bienvenida bienvenida"
-    "barraTop barraTop"
-    "cancionSemana albumSemana"
-    "solistaSemana grupoSemana";
-     
-      column-gap: 5px;
-      row-gap: 20px; 
-      }    
-  }
-
-  @media screen and (max-width:768px) {
-    .navSocial{
-        flex-direction: column;
-    } 
-}
-
 @media (max-width: 480px) {
     .midIndex {
         grid-template-columns: repeat(2, 1fr);
@@ -312,18 +281,60 @@ iframe{
     column-gap: 5px;
     row-gap: 60px; 
     }
+
+    .bottom img{
+        width: 95%;
+        height: 100%;
+        }
 }
-@media (max-width: 480px) {
-.bottom img{
-    width: 95%;
-    height: 100%;
+
+
+@media (max-width: 768px) {
+    body{
+        margin: 0%;
+    }
+
+    .midIndex {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 250px);
+        grid-template-areas: 
+    "bienvenida bienvenida"
+    "barraTop barraTop"
+    "cancionSemana albumSemana"
+    "solistaSemana grupoSemana";
+      column-gap: 5px;
+      row-gap: 20px; 
+      }    
+
+    .navSocial{
+        flex-direction: column;
+    } 
+
+    iframe{
+        width: 80%;
+        height: 75%;
+        margin: 10%;
+    }
+
+    .midLetras{ grid-template-columns: repeat(3, auto) ;
+        grid-template-rows: repeat(1, 400px);
+    
+        grid-template-areas: 
+        "videoyt"
+        "barraTop"
+        "letra";
+    
+        column-gap: 5px;
+        row-gap: 5px; 
+    
+    }
+
 }
-}
+
 
 
 /* FOOTER */
 
 footer{
     text-align: center;
-    flex-shrink: 0;
 }
