@@ -112,6 +112,9 @@ header form{
 /* CONTENIDO GRID Y FLEXBOX */
 /* INDEX */
 
+
+   
+
 .midIndex{
     width: auto;
     height: auto;
@@ -120,7 +123,7 @@ header form{
     
     display: grid;
     
-    grid-template-columns: repeat(3, 450px 450px 308px) ;
+    grid-template-columns: repeat(3, 29em 29em 20em) ;
     grid-template-rows: repeat(3, 250px);
     
     grid-template-areas: 
@@ -235,7 +238,7 @@ header form{
 
     display: grid;
 
-    grid-template-columns: repeat(3, 500px 500px 308px) ;
+    grid-template-columns: repeat(3, 29em 29em 20em) ;
     grid-template-rows: repeat(3, 250px);
 
     grid-template-areas: 
@@ -276,6 +279,9 @@ video{
 
 
 /* Media Queris */
+
+    /* Mi Laptop tiene una resolucion de 1440 x 900 aprox por la visibile incompatibilidad
+    de la pagina con tamaños mas grandes y pequeños a eso */
 
 @media (max-width: 480px) {
     .midIndex {
