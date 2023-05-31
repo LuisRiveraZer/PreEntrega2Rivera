@@ -283,15 +283,68 @@ video{
     /* Mi Laptop tiene una resolucion de 1440 x 900 aprox por la visibile incompatibilidad
     de la pagina con tamaños mas grandes y pequeños a eso */
 
+
+@media (max-width: 1024px) {
+        .midIndex{
+        grid-template-columns: repeat(3, 19em 19em 15em) ;
+        }
+    
+        .midLetras{
+        grid-template-columns: repeat(3, 19em 19em 15em) ;
+        }
+    }
+
+@media (max-width: 768px) {
+    body{
+         margin: 0%;
+        }
+    
+    .midIndex {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 250px);
+        grid-template-areas: 
+        "bienvenida bienvenida"
+        "barraTop barraTop"
+        "cancionSemana albumSemana"
+        "solistaSemana grupoSemana";
+        column-gap: 5px;
+        row-gap: 20px; 
+        }    
+    
+    .navSocial{
+        flex-direction: column;
+        } 
+    
+    iframe{
+        width: 80%;
+        height: 75%;
+        margin: 10%;
+        }
+    
+    .midLetras{ grid-template-columns: repeat(3, auto) ;
+        grid-template-rows: repeat(1, 400px);
+        
+        grid-template-areas: 
+        "videoyt"
+        "barraTop"
+        "letra";
+        
+        column-gap: 5px;
+        row-gap: 5px; 
+        }
+    
+}
+
+
 @media (max-width: 480px) {
     .midIndex {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 250px);
         grid-template-areas: 
-    "bienvenida bienvenida"
-    "barraTop barraTop"
-    "cancionSemana albumSemana"
-    "solistaSemana grupoSemana";
+        "bienvenida bienvenida"
+        "barraTop barraTop"
+        "cancionSemana albumSemana"
+        "solistaSemana grupoSemana";
     
     column-gap: 5px;
     row-gap: 60px; 
@@ -300,58 +353,6 @@ video{
     .bottom img{
         width: 95%;
         height: 100%;
-        }
-}
-
-
-@media (max-width: 768px) {
-    body{
-        margin: 0%;
-    }
-
-    .midIndex {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 250px);
-        grid-template-areas: 
-    "bienvenida bienvenida"
-    "barraTop barraTop"
-    "cancionSemana albumSemana"
-    "solistaSemana grupoSemana";
-      column-gap: 5px;
-      row-gap: 20px; 
-      }    
-
-    .navSocial{
-        flex-direction: column;
-    } 
-
-    iframe{
-        width: 80%;
-        height: 75%;
-        margin: 10%;
-    }
-
-    .midLetras{ grid-template-columns: repeat(3, auto) ;
-        grid-template-rows: repeat(1, 400px);
-    
-        grid-template-areas: 
-        "videoyt"
-        "barraTop"
-        "letra";
-    
-        column-gap: 5px;
-        row-gap: 5px; 
-    }
-
-}
-
-@media (max-width: 1024px) {
-    .midIndex{
-        grid-template-columns: repeat(3, 19em 19em 15em) ;
-        }
-
-    .midLetras{
-            grid-template-columns: repeat(3, 19em 19em 15em) ;
         }
 }
 
