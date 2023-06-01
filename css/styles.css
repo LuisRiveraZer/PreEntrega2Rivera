@@ -121,7 +121,7 @@ header form{
 
 
 /* CONTENIDO GRID Y FLEXBOX */
-/* INDEX */
+    /* INDEX */
 
 
    
@@ -238,7 +238,7 @@ header form{
 }
 
 
-/* PAGES / LETRAS */
+    /* PAGES / LETRAS */
 
 .midLetras{
     width: auto;
@@ -287,6 +287,33 @@ video{
     height: 100%;
 }
 
+    /* PAGES */
+
+.midPages{
+    width: auto;
+    height: auto;
+    background-color: rgba(200, 220, 220, 0.75);
+    text-align: center;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 29em 29em 20em) ;
+    grid-template-rows: repeat(3, 250px);
+
+    grid-template-areas: 
+    "contPages contPages2 barraTop"
+    "contPages contPages2 barraTop"
+    "0 0 0";
+
+    column-gap: 5px;
+    row-gap: 5px; 
+}
+
+.midPages ul{
+    list-style: none;
+}
+
+
 
 /* Media Queris */
 
@@ -301,6 +328,9 @@ video{
     
         .midLetras{
         grid-template-columns: repeat(3, 19em 19em 15em) ;
+        }
+        .midPages{  
+        grid-template-columns: repeat(3, 19em 19em 15em);
         }
     }
 
@@ -331,7 +361,8 @@ video{
         margin: 10%;
         }
     
-    .midLetras{ grid-template-columns: repeat(3, auto) ;
+    .midLetras{
+        grid-template-columns: repeat(1, auto) ;
         grid-template-rows: repeat(1, 400px);
         
         grid-template-areas: 
@@ -342,7 +373,18 @@ video{
         column-gap: 5px;
         row-gap: 5px; 
         }
-    
+
+    .midPages{
+        grid-template-columns: repeat(1, auto) ;
+        grid-template-rows: repeat(1, 400px);
+        
+        grid-template-areas: 
+        "barraTop"
+        "contPages"
+        "ContPages2";
+        
+        column-gap: 5px;
+        row-gap: 5px; }
 }
 
 
