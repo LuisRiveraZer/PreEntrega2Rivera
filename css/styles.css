@@ -1,3 +1,14 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+:root {
+    background-color: rgba(200, 220, 220, 0.75);
+}
+
 
 /*FUENTE*/
 
@@ -114,7 +125,6 @@ header form{
 
 
    
-
 .midIndex{
     width: auto;
     height: auto;
@@ -361,4 +371,8 @@ video{
 
 footer{
     text-align: center;
+}
+
+footer li{
+    list-style:none
 }
