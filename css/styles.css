@@ -416,5 +416,12 @@ footer{
 }
 
 footer li{
-    list-style:none
+    list-style:none;
+}
+
+/* MOD BOOTSTRAP */
+
+nav img{
+    width: 35px;
+    height: 35px;
 }
