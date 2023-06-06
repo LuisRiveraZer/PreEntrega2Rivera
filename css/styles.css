@@ -1,3 +1,15 @@
+/* Font-Face */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lato-Semibold;
+    src: url("../fonts/Lato-Semibold.ttf");
+}
+
 /* RESET */
 
 * {
@@ -9,18 +21,7 @@
     background-color: rgba(200, 220, 220, 0.75);
 }
 
-
 /*FUENTE*/
-
-@font-face {
-    font-family: Lato-Regular;
-    src: url("../fonts/Lato-Regular.ttf");
-}
-
-@font-face {
-    font-family: Lato-Semibold;
-    src: url("../fonts/Lato-Semibold.ttf");
-}
 
 .latoFuente{
     font-family: Lato-Regular , regular ;
