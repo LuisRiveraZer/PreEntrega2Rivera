@@ -3,11 +3,14 @@
 @font-face {
     font-family: Lato-Regular;
     src: url("../fonts/Lato-Regular.ttf");
+    
     font-style:normal;
     font-weight:400;
     font-variant:normal;
     text-decoration:inherit;
-    text-transform:none
+    text-transform:none;
+    font-display: fallback;
+    font-display: block;
 }
 
 @font-face {
@@ -18,7 +21,9 @@
     font-weight:400;
     font-variant:normal;
     text-decoration:inherit;
-    text-transform:none
+    text-transform:none;
+    font-display: fallback;
+    font-display: block;
 }
 
 /* RESET */
@@ -35,21 +40,21 @@
 /*FUENTE*/
 
 .latoFuente{
-    font-family: Lato-Regular , regular, Arial, Helvetica, sans-serif ;
+    font-family: Lato-Regular , regular;
     font-size: 17px;
     font-style: normal;
     color: black;
 }
 
 .latoFuenteCoro{
-    font-family: Lato-Regular , regular, Arial, Helvetica, sans-serif  ;
+    font-family: Lato-Regular , regular;
     font-size: 17px;
     font-style: oblique;
     color: black;
 }
 
 .latoFuenteSubtitulos{
-    font-family: Lato-Semibold , regular, Arial, Helvetica, sans-serif  ;
+    font-family: Lato-Semibold , regular;
     font-size: 20px;
     color : black;
 }
