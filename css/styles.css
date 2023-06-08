@@ -3,11 +3,22 @@
 @font-face {
     font-family: Lato-Regular;
     src: url("../fonts/Lato-Regular.ttf");
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-decoration:inherit;
+    text-transform:none
 }
 
 @font-face {
     font-family: Lato-Semibold;
     src: url("../fonts/Lato-Semibold.ttf");
+    
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-decoration:inherit;
+    text-transform:none
 }
 
 /* RESET */
@@ -87,6 +98,7 @@ header{
 }
 
 header h1 {
+    
     font-family: Lato-Semibold;
     font-size: 32px;
     width: 200px;
