@@ -35,21 +35,21 @@
 /*FUENTE*/
 
 .latoFuente{
-    font-family: Lato-Regular , regular ;
+    font-family: Lato-Regular , regular, Arial, Helvetica, sans-serif ;
     font-size: 17px;
     font-style: normal;
     color: black;
 }
 
 .latoFuenteCoro{
-    font-family: Lato-Regular , regular ;
+    font-family: Lato-Regular , regular, Arial, Helvetica, sans-serif  ;
     font-size: 17px;
     font-style: oblique;
     color: black;
 }
 
 .latoFuenteSubtitulos{
-    font-family: Lato-Semibold , regular ;
+    font-family: Lato-Semibold , regular, Arial, Helvetica, sans-serif  ;
     font-size: 20px;
     color : black;
 }
