@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Lato-Regular;
-    src: url("../fonts/Lato-Regular.ttf");
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
 
     font-style:normal;
     font-weight:400;
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: Lato-Semibold;
-    src: url("../fonts/Lato-Semibold.ttf");
+    src: url("../fonts/Lato-Semibold.ttf") format("truetype");
     
     font-style:normal;
     font-weight:400;
