@@ -1,0 +1,57 @@
+/* Font-Face */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/lato-regular.ttf");
+
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-decoration:inherit;
+    text-transform:none;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: Lato-Semibold;
+    src: url("../fonts/lato-semibold.ttf") ;
+    
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-decoration:inherit;
+    text-transform:none;
+    font-display: auto;
+}
+
+/*FUENTE*/
+
+.latoFuente{
+    font-family: Lato-Regular , regular;
+    font-size: 17px;
+    font-style: normal;
+    color: black;
+}
+
+.latoFuenteCoro{
+    font-family: Lato-Regular , regular;
+    font-size: 17px;
+    font-style: oblique;
+    color: black;
+}
+
+.latoFuenteSubtitulos{
+    font-family: Lato-Semibold , regular;
+    font-size: 20px;
+    color : black;
+}
+
+.quitLink{
+    text-decoration: none;
+    color: black;
+}
+
+.visibleLink {
+    text-decoration: underline;
+    color: black;
+}

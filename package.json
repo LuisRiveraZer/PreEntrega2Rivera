@@ -1,0 +1,12 @@
+{
+  "name": "preentrega29-05",
+  "version": "1.0.0",
+  "description": "Hola, dejare aqui algunas anotaciones puestas en diferentes lugares del codigo",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch scss:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

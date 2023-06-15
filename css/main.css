@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* Font-Face */
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+  font-display: auto;
+}
+@font-face {
+  font-family: Lato-Semibold;
+  src: url("../fonts/lato-semibold.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+  font-display: auto;
+}
+/*FUENTE*/
+.latoFuente {
+  font-family: Lato-Regular, regular;
+  font-size: 17px;
+  font-style: normal;
+  color: black;
+}
+
+.latoFuenteCoro {
+  font-family: Lato-Regular, regular;
+  font-size: 17px;
+  font-style: oblique;
+  color: black;
+}
+
+.latoFuenteSubtitulos {
+  font-family: Lato-Semibold, regular;
+  font-size: 20px;
+  color: black;
+}
+
+.quitLink {
+  text-decoration: none;
+  color: black;
+}
+
+.visibleLink {
+  text-decoration: underline;
+  color: black;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: rgba(200, 220, 220, 0.75);
+}
+
+/* HEADER */
+header {
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/psd-premium/fondo-formas-abstractas-blancas-modernas-psd-papel-tapiz-escritorio-horizontal-fondo-panoramico-4k_691560-50.jpg?w=2000");
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: Lato-Semibold;
+  font-size: 32px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+}
+
+header form {
+  margin: 10px 10px 50px;
+  width: 200px;
+  height: 50px;
+}
+
+/* NAV */
+.navSocial {
+  width: auto;
+  margin: 30px auto;
+  justify-content: center;
+  background-color: rgba(200, 220, 220, 0.75);
+  font-family: Lato-Semibold;
+}
+
+.navSocial ul {
+  list-style: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.menuNav > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menuNav > li > a {
+  display: block;
+  padding: 10px 25px;
+}
+
+.menuNav li a:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.75s;
+}
+
+.subMenu {
+  position: absolute;
+  background-color: rgb(200, 220, 220);
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.subMenu li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menuNav li:hover .subMenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* MOD BOOTSTRAP */
+nav img {
+  width: 35px;
+  height: 35px;
+}
+
+/* BODY */
+body {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  background-image: url("https://swall.teahub.io/photos/small/155-1559258_white-light-wallpaper-4k.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CONTENIDO GRID Y FLEXBOX */
+/* INDEX */
+.midIndex {
+  width: auto;
+  height: auto;
+  background-color: rgba(200, 220, 220, 0.75);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-rows: repeat(3, 250px);
+  grid-template-areas: "bienvenida bienvenida barraTop" "cancionSemana albumSemana  barraTop" "solistaSemana grupoSemana 0";
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.bienvenida {
+  grid-area: bienvenida;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.barraTop {
+  grid-area: barraTop;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tablaTopHead {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.tablaTopRow {
+  display: flex;
+  width: 100%;
+}
+
+.tablaTopCell {
+  flex-basis: 50%;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 0;
+}
+
+.cancionSemana {
+  grid-area: cancionSemana;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.albumSemana {
+  grid-area: albumSemana;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.solistaSemana {
+  grid-area: solistaSemana;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.grupoSemana {
+  grid-area: grupoSemana;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  border: 1px solid #000;
+  width: 50%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.bottom {
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom img {
+  width: 40%;
+  height: 100%;
+  margin-top: 2.5px;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+/* PAGES / LETRAS */
+.midLetras {
+  width: auto;
+  height: auto;
+  background-color: rgba(200, 220, 220, 0.75);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-rows: repeat(3, 250px);
+  grid-template-areas: "letra letra videoyt" "letra letra barraTop" "letra letra barraTop";
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.letra {
+  grid-area: letra;
+  background-color: aliceblue;
+  overflow: scroll;
+}
+
+.videoyt {
+  grid-area: videoyt;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+/* PAGES */
+.midPages {
+  width: auto;
+  height: auto;
+  background-color: rgba(200, 220, 220, 0.75);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-rows: repeat(3, 250px);
+  grid-template-areas: "contPages contPages2 barraTop" "contPages contPages2 barraTop" "0 0 0";
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.midPages ul {
+  list-style: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+footer li {
+  list-style: none;
+}
+
+/* Media Queris */
+/* Mi Laptop tiene una resolucion de 1440 x 900 aprox por la visibile incompatibilidad
+de la pagina con tamaños mas grandes y pequeños a eso */
+@media (max-width: 1024px) {
+  .midIndex {
+    grid-template-columns: repeat(3, 19em 19em 15em);
+  }
+  .midLetras {
+    grid-template-columns: repeat(3, 19em 19em 15em);
+  }
+  .midPages {
+    grid-template-columns: repeat(3, 19em 19em 15em);
+  }
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0%;
+  }
+  .midIndex {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas: "bienvenida bienvenida" "barraTop barraTop" "cancionSemana albumSemana" "solistaSemana grupoSemana";
+    column-gap: 5px;
+    row-gap: 20px;
+  }
+  iframe {
+    width: 80%;
+    height: 75%;
+    margin: 10%;
+  }
+  .midLetras {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, 400px);
+    grid-template-areas: "videoyt" "barraTop" "letra";
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+  .midPages {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, 400px);
+    grid-template-areas: "barraTop" "contPages" "ContPages2";
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .midIndex {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas: "bienvenida bienvenida" "barraTop barraTop" "cancionSemana albumSemana" "solistaSemana grupoSemana";
+    column-gap: 5px;
+    row-gap: 60px;
+  }
+  .bottom img {
+    width: 95%;
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

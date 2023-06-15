@@ -1,0 +1,31 @@
+/* HEADER */
+
+header{
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/psd-premium/fondo-formas-abstractas-blancas-modernas-psd-papel-tapiz-escritorio-horizontal-fondo-panoramico-4k_691560-50.jpg?w=2000");
+    border-radius: 15px;
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    
+    font-family: Lato-Semibold;
+    font-size: 32px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+}
+
+header form{
+    margin: 10px 10px 50px;
+    width: 200px;
+    height: 50px;
+}
