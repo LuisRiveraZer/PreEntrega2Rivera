@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: Lato-Semibold;
-    src: url("../fonts/lato-semibold.ttf") ;
+    src: url("../fonts/lato-semibold.ttf") ;  
     
     font-style:normal;
     font-weight:400;
@@ -31,19 +31,16 @@
     font-size: 17px;
     font-style: normal;
     color: black;
-}
 
-.latoFuenteCoro{
-    font-family: Lato-Regular , regular;
-    font-size: 17px;
-    font-style: oblique;
-    color: black;
-}
+    &__coro{
+        font-style: oblique;
+        color: black;
+    }
 
-.latoFuenteSubtitulos{
-    font-family: Lato-Semibold , regular;
-    font-size: 20px;
-    color : black;
+    &__subtitulos{
+        font-size: 20px;
+        color : black;
+    }
 }
 
 .quitLink{

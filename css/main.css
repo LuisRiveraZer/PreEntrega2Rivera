@@ -27,16 +27,11 @@
   font-style: normal;
   color: black;
 }
-
-.latoFuenteCoro {
-  font-family: Lato-Regular, regular;
-  font-size: 17px;
+.latoFuente__coro {
   font-style: oblique;
   color: black;
 }
-
-.latoFuenteSubtitulos {
-  font-family: Lato-Semibold, regular;
+.latoFuente__subtitulos {
   font-size: 20px;
   color: black;
 }
@@ -76,7 +71,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 header h1 {
   font-family: Lato-Semibold;
   font-size: 32px;
@@ -84,7 +78,6 @@ header h1 {
   height: 50px;
   align-items: center;
 }
-
 header form {
   margin: 10px 10px 50px;
   width: 200px;
@@ -99,7 +92,6 @@ header form {
   background-color: rgba(200, 220, 220, 0.75);
   font-family: Lato-Semibold;
 }
-
 .navSocial ul {
   list-style: none;
   padding: 10px 20px;
@@ -253,7 +245,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .bottom img {
   width: 40%;
   height: 100%;
@@ -316,7 +307,6 @@ video {
   column-gap: 5px;
   row-gap: 5px;
 }
-
 .midPages ul {
   list-style: none;
 }
@@ -325,7 +315,6 @@ video {
 footer {
   text-align: center;
 }
-
 footer li {
   list-style: none;
 }

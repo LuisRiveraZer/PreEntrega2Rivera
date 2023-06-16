@@ -116,18 +116,17 @@ body{
         height: 70%;
         justify-content: center;
         align-items: center;
-      }
-    
-    .bottom img{
-        width: 40%;
-        height: 100%;
-        margin-top: 2.5px;
-        border-radius: 20px;
-        background-position: center ; 
-        background-repeat: no-repeat;
-        background-size: 25px;
-    }
-    
+
+        img{
+            width: 40%;
+            height: 100%;
+            margin-top: 2.5px;
+            border-radius: 20px;
+            background-position: center ; 
+            background-repeat: no-repeat;
+            background-size: 25px;
+        }
+      }    
     
         /* PAGES / LETRAS */
     
@@ -198,8 +197,8 @@ body{
     
         column-gap: 5px;
         row-gap: 5px; 
-    }
-    
-    .midPages ul{
-        list-style: none;
+
+        ul{
+            list-style: none;
+        }
     }
