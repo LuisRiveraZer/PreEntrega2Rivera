@@ -7,5 +7,3 @@ Mi Laptop tiene una resolucion de 1440 x 900 aprox por la visibile incompatibili
 En algunos lugares del codigo hay informacion personal
 
 Por lo visto el iframe ubicado en pages/letras no se puede reproducir como video de YouTube igualmente descarge el video y lo subi a la carpeta /img y lo ancle como video en section.videoyt ente estas barritas= < !-- -->
-
-Fue molesto tener que aplicar bootstrap por lo leido en el apartado "maquetado de la web" pero como es debido logre aplicar BS en una pagina 
