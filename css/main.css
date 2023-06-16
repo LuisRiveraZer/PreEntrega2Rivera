@@ -53,7 +53,8 @@
 }
 
 :root {
-  background-color: rgba(200, 220, 220, 0.75);
+  background: rgb(200, 220, 220);
+  background: linear-gradient(45deg, rgb(200, 220, 220) 30%, rgb(255, 255, 255) 70%);
 }
 
 /* HEADER */
@@ -146,7 +147,6 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 10px;
-  background-image: url("https://swall.teahub.io/photos/small/155-1559258_white-light-wallpaper-4k.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
