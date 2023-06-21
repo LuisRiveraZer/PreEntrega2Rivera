@@ -98,41 +98,17 @@ header form {
   padding: 10px 20px;
   text-align: center;
 }
-
-.menuNav > li {
+.navSocial__menuNav li {
   position: relative;
   display: inline-block;
 }
-
-.menuNav > li > a {
+.navSocial__menuNav li a {
   display: block;
   padding: 10px 25px;
 }
-
-.menuNav li a:hover {
+.navSocial__menuNav li a:hover {
   background-color: rgb(255, 255, 255);
   transition: all 0.75s;
-}
-
-.subMenu {
-  position: absolute;
-  background-color: rgb(200, 220, 220);
-  width: 100%;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.subMenu li a {
-  display: block;
-  padding: 8px;
-  text-decoration: none;
-  color: #000;
-}
-
-.menuNav li:hover .subMenu {
-  visibility: visible;
-  opacity: 1;
 }
 
 /* MOD BOOTSTRAP */
