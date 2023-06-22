@@ -23,7 +23,7 @@ body{
         
         display: grid;
         
-        grid-template-columns: repeat(3, 29em 29em 20em) ;
+        grid-template-columns: repeat(3, 34% 34% 30%) ;
         grid-template-rows: repeat(3, 250px);
         
         grid-template-areas: 
@@ -137,7 +137,7 @@ body{
     
         display: grid;
     
-        grid-template-columns: repeat(3, 29em 29em 20em) ;
+        grid-template-columns: repeat(3, 34% 34% 30%) ;
         grid-template-rows: repeat(3, 250px);
     
         grid-template-areas: 
@@ -186,7 +186,7 @@ body{
     
         display: grid;
     
-        grid-template-columns: repeat(3, 29em 29em 20em) ;
+        grid-template-columns: repeat(3, 34% 34% 30%) ;
         grid-template-rows: repeat(3, 250px);
     
         grid-template-areas: 

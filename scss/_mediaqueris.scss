@@ -4,18 +4,6 @@
     de la pagina con tamaños mas grandes y pequeños a eso */
 
 
-    @media (max-width: 1024px) {
-        .midIndex{
-        grid-template-columns: repeat(3, 19em 19em 15em) ;
-        }
-    
-        .midLetras{
-        grid-template-columns: repeat(3, 19em 19em 15em) ;
-        }
-        .midPages{  
-        grid-template-columns: repeat(3, 19em 19em 15em);
-        }
-    }
 
 @media (max-width: 768px) {
     body{

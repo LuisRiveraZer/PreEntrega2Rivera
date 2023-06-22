@@ -136,7 +136,7 @@ body {
   background-color: rgba(200, 220, 220, 0.75);
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-columns: repeat(3, 34% 34% 30%);
   grid-template-rows: repeat(3, 250px);
   grid-template-areas: "bienvenida bienvenida barraTop" "cancionSemana albumSemana  barraTop" "solistaSemana grupoSemana 0";
   column-gap: 5px;
@@ -238,7 +238,7 @@ body {
   background-color: rgba(200, 220, 220, 0.75);
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-columns: repeat(3, 34% 34% 30%);
   grid-template-rows: repeat(3, 250px);
   grid-template-areas: "letra letra videoyt" "letra letra barraTop" "letra letra barraTop";
   column-gap: 5px;
@@ -277,7 +277,7 @@ video {
   background-color: rgba(200, 220, 220, 0.75);
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 29em 29em 20em);
+  grid-template-columns: repeat(3, 34% 34% 30%);
   grid-template-rows: repeat(3, 250px);
   grid-template-areas: "contPages contPages2 barraTop" "contPages contPages2 barraTop" "0 0 0";
   column-gap: 5px;
@@ -298,17 +298,6 @@ footer li {
 /* Media Queris */
 /* Mi Laptop tiene una resolucion de 1440 x 900 aprox por la visibile incompatibilidad
 de la pagina con tamaños mas grandes y pequeños a eso */
-@media (max-width: 1024px) {
-  .midIndex {
-    grid-template-columns: repeat(3, 19em 19em 15em);
-  }
-  .midLetras {
-    grid-template-columns: repeat(3, 19em 19em 15em);
-  }
-  .midPages {
-    grid-template-columns: repeat(3, 19em 19em 15em);
-  }
-}
 @media (max-width: 768px) {
   body {
     margin: 0%;
